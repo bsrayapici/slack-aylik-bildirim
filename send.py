@@ -3,7 +3,7 @@ import requests
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
-MESAJ = ":MESAJ = ":memo: *Aylık takip dokümanını doldurma vakti* — Orhan Bey'in sunumu için aylık döküman takip hatırlatmasıdır. Doküman: <https://docs.google.com/presentation/d/16XJ7Tu98OErNzDe9FnYxvoYYlCRnrqjf/edit|Sunuma git> \n:sparkles: İyi sunumlar!" 🫡"
+MESAJ = ":memo: *Aylik takip dokumani hatirlatmasi* - Orhan Bey'in sunumu icin. Dokuman: <https://docs.google.com/presentation/d/16XJ7Tu98OErNzDe9FnYxvoYYlCRnrqjf/edit|Sunuma git> \n:sparkles: Iyi sunumlar!"</parameter>
 
 WEBHOOK_URL = os.environ["SLACK_WEBHOOK_URL"]
 
